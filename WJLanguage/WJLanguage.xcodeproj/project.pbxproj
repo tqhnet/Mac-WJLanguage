@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D2CF2E620B549CF004606DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF2E520B549CF004606DF /* AppDelegate.m */; };
+		0D2CF2EB20B549CF004606DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2CF2EA20B549CF004606DF /* Assets.xcassets */; };
+		0D2CF2F120B549CF004606DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF2F020B549CF004606DF /* main.m */; };
+		0D2CF31C20B54C64004606DF /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2CF31B20B54C64004606DF /* libiconv.tbd */; };
+		0D2CF33B20B55033004606DF /* main11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF32320B55033004606DF /* main11.cpp */; };
+		0D2CF33C20B55033004606DF /* XlsReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF32420B55033004606DF /* XlsReader.cpp */; };
+		0D2CF33D20B55033004606DF /* DHcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF32920B55033004606DF /* DHcell.m */; };
+		0D2CF33E20B55033004606DF /* DHxlsReaderIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF32C20B55033004606DF /* DHxlsReaderIOS.m */; };
+		0D2CF33F20B55033004606DF /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF33620B55033004606DF /* getopt.c */; };
+		0D2CF34020B55033004606DF /* ole.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF33720B55033004606DF /* ole.c */; };
+		0D2CF34120B55033004606DF /* xls.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF33820B55033004606DF /* xls.c */; };
+		0D2CF34220B55033004606DF /* xls2csv.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF33920B55033004606DF /* xls2csv.c */; };
+		0D2CF34320B55033004606DF /* xlstool.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF33A20B55033004606DF /* xlstool.c */; };
+		0D2CF34520B55065004606DF /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2CF34420B55065004606DF /* libiconv.2.tbd */; };
+		0D2CF34720B55071004606DF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2CF34620B55071004606DF /* libz.tbd */; };
+		0D2CF34B20B551EA004606DF /* 多语言例子.xls in Resources */ = {isa = PBXBuildFile; fileRef = 0D2CF34A20B551EA004606DF /* 多语言例子.xls */; };
+		0D2CF37120B55C36004606DF /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF35120B55C35004606DF /* aescrypt.c */; };
+		0D2CF37220B55C36004606DF /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF35220B55C35004606DF /* aeskey.c */; };
+		0D2CF37320B55C36004606DF /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF35420B55C35004606DF /* aestab.c */; };
+		0D2CF37420B55C36004606DF /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF35820B55C35004606DF /* entropy.c */; };
+		0D2CF37520B55C36004606DF /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF35A20B55C35004606DF /* fileenc.c */; };
+		0D2CF37620B55C36004606DF /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF35C20B55C35004606DF /* hmac.c */; };
+		0D2CF37720B55C36004606DF /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF35E20B55C35004606DF /* prng.c */; };
+		0D2CF37820B55C36004606DF /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF36020B55C35004606DF /* pwd2key.c */; };
+		0D2CF37920B55C36004606DF /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF36220B55C35004606DF /* sha1.c */; };
+		0D2CF37A20B55C36004606DF /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF36720B55C35004606DF /* ioapi.c */; };
+		0D2CF37B20B55C36004606DF /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF36920B55C35004606DF /* mztools.c */; };
+		0D2CF37C20B55C36004606DF /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF36B20B55C35004606DF /* unzip.c */; };
+		0D2CF37D20B55C36004606DF /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF36D20B55C35004606DF /* zip.c */; };
+		0D2CF37E20B55C36004606DF /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF37020B55C35004606DF /* SSZipArchive.m */; };
+		0D2CF38120B56BA9004606DF /* WJLanguageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CF38020B56BA9004606DF /* WJLanguageTool.m */; };
+		0DD7DFEF20B66C1D00A4F9AA /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD7DFED20B66C1D00A4F9AA /* MainWindowController.m */; };
+		0DD7DFF020B66C1D00A4F9AA /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD7DFEE20B66C1D00A4F9AA /* MainWindowController.xib */; };
+		0DD7DFF220B66CC800A4F9AA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD7DFF120B66CC800A4F9AA /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D2CF2E120B549CF004606DF /* WJLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2CF2E420B549CF004606DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D2CF2E520B549CF004606DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D2CF2EA20B549CF004606DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D2CF2EF20B549CF004606DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2CF2F020B549CF004606DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D2CF2F220B549CF004606DF /* WJLanguage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WJLanguage.entitlements; sourceTree = "<group>"; };
+		0D2CF31B20B54C64004606DF /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		0D2CF32120B55033004606DF /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		0D2CF32320B55033004606DF /* main11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main11.cpp; sourceTree = "<group>"; };
+		0D2CF32420B55033004606DF /* XlsReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XlsReader.cpp; sourceTree = "<group>"; };
+		0D2CF32520B55033004606DF /* XlsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XlsReader.h; sourceTree = "<group>"; };
+		0D2CF32720B55033004606DF /* DHcell-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DHcell-Private.h"; sourceTree = "<group>"; };
+		0D2CF32820B55033004606DF /* DHcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHcell.h; sourceTree = "<group>"; };
+		0D2CF32920B55033004606DF /* DHcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHcell.m; sourceTree = "<group>"; };
+		0D2CF32A20B55033004606DF /* DHxlsReaderIOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DHxlsReaderIOS-Prefix.pch"; sourceTree = "<group>"; };
+		0D2CF32B20B55033004606DF /* DHxlsReaderIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHxlsReaderIOS.h; sourceTree = "<group>"; };
+		0D2CF32C20B55033004606DF /* DHxlsReaderIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHxlsReaderIOS.m; sourceTree = "<group>"; };
+		0D2CF32E20B55033004606DF /* brdb.c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.c.h; sourceTree = "<group>"; };
+		0D2CF32F20B55033004606DF /* brdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.h; sourceTree = "<group>"; };
+		0D2CF33020B55033004606DF /* ole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ole.h; sourceTree = "<group>"; };
+		0D2CF33120B55033004606DF /* xls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xls.h; sourceTree = "<group>"; };
+		0D2CF33220B55033004606DF /* xlsstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlsstruct.h; sourceTree = "<group>"; };
+		0D2CF33320B55033004606DF /* xlstool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstool.h; sourceTree = "<group>"; };
+		0D2CF33420B55033004606DF /* xlstypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstypes.h; sourceTree = "<group>"; };
+		0D2CF33620B55033004606DF /* getopt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		0D2CF33720B55033004606DF /* ole.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ole.c; sourceTree = "<group>"; };
+		0D2CF33820B55033004606DF /* xls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xls.c; sourceTree = "<group>"; };
+		0D2CF33920B55033004606DF /* xls2csv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xls2csv.c; sourceTree = "<group>"; };
+		0D2CF33A20B55033004606DF /* xlstool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xlstool.c; sourceTree = "<group>"; };
+		0D2CF34420B55065004606DF /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
+		0D2CF34620B55071004606DF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0D2CF34820B55183004606DF /* ExcelDemoDHlibxls-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExcelDemoDHlibxls-Prefix.pch"; sourceTree = "<group>"; };
+		0D2CF34A20B551EA004606DF /* 多语言例子.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = "多语言例子.xls"; sourceTree = "<group>"; };
+		0D2CF34F20B55C35004606DF /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		0D2CF35020B55C35004606DF /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		0D2CF35120B55C35004606DF /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		0D2CF35220B55C35004606DF /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		0D2CF35320B55C35004606DF /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		0D2CF35420B55C35004606DF /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		0D2CF35520B55C35004606DF /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		0D2CF35620B55C35004606DF /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		0D2CF35720B55C35004606DF /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		0D2CF35820B55C35004606DF /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		0D2CF35920B55C35004606DF /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		0D2CF35A20B55C35004606DF /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		0D2CF35B20B55C35004606DF /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		0D2CF35C20B55C35004606DF /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		0D2CF35D20B55C35004606DF /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		0D2CF35E20B55C35004606DF /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		0D2CF35F20B55C35004606DF /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		0D2CF36020B55C35004606DF /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		0D2CF36120B55C35004606DF /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		0D2CF36220B55C35004606DF /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		0D2CF36320B55C35004606DF /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		0D2CF36420B55C35004606DF /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		0D2CF36620B55C35004606DF /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		0D2CF36720B55C35004606DF /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		0D2CF36820B55C35004606DF /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		0D2CF36920B55C35004606DF /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		0D2CF36A20B55C35004606DF /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		0D2CF36B20B55C35004606DF /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		0D2CF36C20B55C35004606DF /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		0D2CF36D20B55C35004606DF /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		0D2CF36E20B55C35004606DF /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		0D2CF36F20B55C35004606DF /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		0D2CF37020B55C35004606DF /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		0D2CF37F20B56BA9004606DF /* WJLanguageTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJLanguageTool.h; sourceTree = "<group>"; };
+		0D2CF38020B56BA9004606DF /* WJLanguageTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJLanguageTool.m; sourceTree = "<group>"; };
+		0DD7DFEC20B66C1D00A4F9AA /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		0DD7DFED20B66C1D00A4F9AA /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		0DD7DFEE20B66C1D00A4F9AA /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		0DD7DFF120B66CC800A4F9AA /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D2CF2DE20B549CF004606DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2CF34720B55071004606DF /* libz.tbd in Frameworks */,
+				0D2CF34520B55065004606DF /* libiconv.2.tbd in Frameworks */,
+				0D2CF31C20B54C64004606DF /* libiconv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2CF2D820B549CF004606DF = {
+			isa = PBXGroup;
+			children = (
+				0D2CF2E320B549CF004606DF /* WJLanguage */,
+				0D2CF2E220B549CF004606DF /* Products */,
+				0D2CF31A20B54C64004606DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D2CF2E220B549CF004606DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D2CF2E120B549CF004606DF /* WJLanguage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D2CF2E320B549CF004606DF /* WJLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				0D2CF34D20B55C35004606DF /* SSZipArchive */,
+				0D2CF32020B55033004606DF /* DHxlsReader */,
+				0D2CF2E420B549CF004606DF /* AppDelegate.h */,
+				0D2CF2E520B549CF004606DF /* AppDelegate.m */,
+				0D2CF37F20B56BA9004606DF /* WJLanguageTool.h */,
+				0D2CF38020B56BA9004606DF /* WJLanguageTool.m */,
+				0DD7DFEC20B66C1D00A4F9AA /* MainWindowController.h */,
+				0DD7DFED20B66C1D00A4F9AA /* MainWindowController.m */,
+				0DD7DFEE20B66C1D00A4F9AA /* MainWindowController.xib */,
+				0D2CF34820B55183004606DF /* ExcelDemoDHlibxls-Prefix.pch */,
+				0D2CF34A20B551EA004606DF /* 多语言例子.xls */,
+				0D2CF2EA20B549CF004606DF /* Assets.xcassets */,
+				0DD7DFF120B66CC800A4F9AA /* MainMenu.xib */,
+				0D2CF2EF20B549CF004606DF /* Info.plist */,
+				0D2CF2F020B549CF004606DF /* main.m */,
+				0D2CF2F220B549CF004606DF /* WJLanguage.entitlements */,
+			);
+			path = WJLanguage;
+			sourceTree = "<group>";
+		};
+		0D2CF31A20B54C64004606DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D2CF34620B55071004606DF /* libz.tbd */,
+				0D2CF34420B55065004606DF /* libiconv.2.tbd */,
+				0D2CF31B20B54C64004606DF /* libiconv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D2CF32020B55033004606DF /* DHxlsReader */ = {
+			isa = PBXGroup;
+			children = (
+				0D2CF32120B55033004606DF /* config.h */,
+				0D2CF32220B55033004606DF /* cplusplus */,
+				0D2CF32620B55033004606DF /* DHxlsReaderIOS */,
+				0D2CF32D20B55033004606DF /* libxls */,
+				0D2CF33520B55033004606DF /* src */,
+			);
+			path = DHxlsReader;
+			sourceTree = "<group>";
+		};
+		0D2CF32220B55033004606DF /* cplusplus */ = {
+			isa = PBXGroup;
+			children = (
+				0D2CF32320B55033004606DF /* main11.cpp */,
+				0D2CF32420B55033004606DF /* XlsReader.cpp */,
+				0D2CF32520B55033004606DF /* XlsReader.h */,
+			);
+			path = cplusplus;
+			sourceTree = "<group>";
+		};
+		0D2CF32620B55033004606DF /* DHxlsReaderIOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D2CF32720B55033004606DF /* DHcell-Private.h */,
+				0D2CF32820B55033004606DF /* DHcell.h */,
+				0D2CF32920B55033004606DF /* DHcell.m */,
+				0D2CF32A20B55033004606DF /* DHxlsReaderIOS-Prefix.pch */,
+				0D2CF32B20B55033004606DF /* DHxlsReaderIOS.h */,
+				0D2CF32C20B55033004606DF /* DHxlsReaderIOS.m */,
+			);
+			path = DHxlsReaderIOS;
+			sourceTree = "<group>";
+		};
+		0D2CF32D20B55033004606DF /* libxls */ = {
+			isa = PBXGroup;
+			children = (
+				0D2CF32E20B55033004606DF /* brdb.c.h */,
+				0D2CF32F20B55033004606DF /* brdb.h */,
+				0D2CF33020B55033004606DF /* ole.h */,
+				0D2CF33120B55033004606DF /* xls.h */,
+				0D2CF33220B55033004606DF /* xlsstruct.h */,
+				0D2CF33320B55033004606DF /* xlstool.h */,
+				0D2CF33420B55033004606DF /* xlstypes.h */,
+			);
+			path = libxls;
+			sourceTree = "<group>";
+		};
+		0D2CF33520B55033004606DF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0D2CF33620B55033004606DF /* getopt.c */,
+				0D2CF33720B55033004606DF /* ole.c */,
+				0D2CF33820B55033004606DF /* xls.c */,
+				0D2CF33920B55033004606DF /* xls2csv.c */,
+				0D2CF33A20B55033004606DF /* xlstool.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0D2CF34D20B55C35004606DF /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				0D2CF34E20B55C35004606DF /* aes */,
+				0D2CF36420B55C35004606DF /* Common.h */,
+				0D2CF36520B55C35004606DF /* minizip */,
+				0D2CF36F20B55C35004606DF /* SSZipArchive.h */,
+				0D2CF37020B55C35004606DF /* SSZipArchive.m */,
+			);
+			name = SSZipArchive;
+			path = "../../../../Downloads/ExcelParseForIOS-master-2/ExcelDemo/ExcelDemo/ExcelParser/XLSX/SSZipArchive";
+			sourceTree = "<group>";
+		};
+		0D2CF34E20B55C35004606DF /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				0D2CF34F20B55C35004606DF /* aes.h */,
+				0D2CF35020B55C35004606DF /* aes_via_ace.h */,
+				0D2CF35120B55C35004606DF /* aescrypt.c */,
+				0D2CF35220B55C35004606DF /* aeskey.c */,
+				0D2CF35320B55C35004606DF /* aesopt.h */,
+				0D2CF35420B55C35004606DF /* aestab.c */,
+				0D2CF35520B55C35004606DF /* aestab.h */,
+				0D2CF35620B55C35004606DF /* brg_endian.h */,
+				0D2CF35720B55C35004606DF /* brg_types.h */,
+				0D2CF35820B55C35004606DF /* entropy.c */,
+				0D2CF35920B55C35004606DF /* entropy.h */,
+				0D2CF35A20B55C35004606DF /* fileenc.c */,
+				0D2CF35B20B55C35004606DF /* fileenc.h */,
+				0D2CF35C20B55C35004606DF /* hmac.c */,
+				0D2CF35D20B55C35004606DF /* hmac.h */,
+				0D2CF35E20B55C35004606DF /* prng.c */,
+				0D2CF35F20B55C35004606DF /* prng.h */,
+				0D2CF36020B55C35004606DF /* pwd2key.c */,
+				0D2CF36120B55C35004606DF /* pwd2key.h */,
+				0D2CF36220B55C35004606DF /* sha1.c */,
+				0D2CF36320B55C35004606DF /* sha1.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		0D2CF36520B55C35004606DF /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				0D2CF36620B55C35004606DF /* crypt.h */,
+				0D2CF36720B55C35004606DF /* ioapi.c */,
+				0D2CF36820B55C35004606DF /* ioapi.h */,
+				0D2CF36920B55C35004606DF /* mztools.c */,
+				0D2CF36A20B55C35004606DF /* mztools.h */,
+				0D2CF36B20B55C35004606DF /* unzip.c */,
+				0D2CF36C20B55C35004606DF /* unzip.h */,
+				0D2CF36D20B55C35004606DF /* zip.c */,
+				0D2CF36E20B55C35004606DF /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D2CF2E020B549CF004606DF /* WJLanguage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2CF2F520B549CF004606DF /* Build configuration list for PBXNativeTarget "WJLanguage" */;
+			buildPhases = (
+				0D2CF2DD20B549CF004606DF /* Sources */,
+				0D2CF2DE20B549CF004606DF /* Frameworks */,
+				0D2CF2DF20B549CF004606DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJLanguage;
+			productName = WJLanguage;
+			productReference = 0D2CF2E120B549CF004606DF /* WJLanguage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D2CF2D920B549CF004606DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = tqh;
+				TargetAttributes = {
+					0D2CF2E020B549CF004606DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0D2CF2DC20B549CF004606DF /* Build configuration list for PBXProject "WJLanguage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D2CF2D820B549CF004606DF;
+			productRefGroup = 0D2CF2E220B549CF004606DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D2CF2E020B549CF004606DF /* WJLanguage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D2CF2DF20B549CF004606DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2CF2EB20B549CF004606DF /* Assets.xcassets in Resources */,
+				0DD7DFF220B66CC800A4F9AA /* MainMenu.xib in Resources */,
+				0D2CF34B20B551EA004606DF /* 多语言例子.xls in Resources */,
+				0DD7DFF020B66C1D00A4F9AA /* MainWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D2CF2DD20B549CF004606DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2CF37520B55C36004606DF /* fileenc.c in Sources */,
+				0D2CF33E20B55033004606DF /* DHxlsReaderIOS.m in Sources */,
+				0D2CF37E20B55C36004606DF /* SSZipArchive.m in Sources */,
+				0D2CF37320B55C36004606DF /* aestab.c in Sources */,
+				0D2CF33C20B55033004606DF /* XlsReader.cpp in Sources */,
+				0D2CF37120B55C36004606DF /* aescrypt.c in Sources */,
+				0D2CF37C20B55C36004606DF /* unzip.c in Sources */,
+				0D2CF37620B55C36004606DF /* hmac.c in Sources */,
+				0D2CF2F120B549CF004606DF /* main.m in Sources */,
+				0DD7DFEF20B66C1D00A4F9AA /* MainWindowController.m in Sources */,
+				0D2CF37A20B55C36004606DF /* ioapi.c in Sources */,
+				0D2CF33F20B55033004606DF /* getopt.c in Sources */,
+				0D2CF37720B55C36004606DF /* prng.c in Sources */,
+				0D2CF38120B56BA9004606DF /* WJLanguageTool.m in Sources */,
+				0D2CF34120B55033004606DF /* xls.c in Sources */,
+				0D2CF37220B55C36004606DF /* aeskey.c in Sources */,
+				0D2CF33B20B55033004606DF /* main11.cpp in Sources */,
+				0D2CF37B20B55C36004606DF /* mztools.c in Sources */,
+				0D2CF34020B55033004606DF /* ole.c in Sources */,
+				0D2CF37420B55C36004606DF /* entropy.c in Sources */,
+				0D2CF37D20B55C36004606DF /* zip.c in Sources */,
+				0D2CF2E620B549CF004606DF /* AppDelegate.m in Sources */,
+				0D2CF37820B55C36004606DF /* pwd2key.c in Sources */,
+				0D2CF33D20B55033004606DF /* DHcell.m in Sources */,
+				0D2CF37920B55C36004606DF /* sha1.c in Sources */,
+				0D2CF34220B55033004606DF /* xls2csv.c in Sources */,
+				0D2CF34320B55033004606DF /* xlstool.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D2CF2F320B549CF004606DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0D2CF2F420B549CF004606DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0D2CF2F620B549CF004606DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WJLanguage/WJLanguage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7YNK8EZZR8;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "WJLanguage/ExcelDemoDHlibxls-Prefix.pch";
+				HEADER_SEARCH_PATHS = DHxlsReaderIOS;
+				INFOPLIST_FILE = WJLanguage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.WJLanguage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D2CF2F720B549CF004606DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WJLanguage/WJLanguage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7YNK8EZZR8;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "WJLanguage/ExcelDemoDHlibxls-Prefix.pch";
+				HEADER_SEARCH_PATHS = DHxlsReaderIOS;
+				INFOPLIST_FILE = WJLanguage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.WJLanguage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D2CF2DC20B549CF004606DF /* Build configuration list for PBXProject "WJLanguage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2CF2F320B549CF004606DF /* Debug */,
+				0D2CF2F420B549CF004606DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2CF2F520B549CF004606DF /* Build configuration list for PBXNativeTarget "WJLanguage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2CF2F620B549CF004606DF /* Debug */,
+				0D2CF2F720B549CF004606DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D2CF2D920B549CF004606DF /* Project object */;
+}
